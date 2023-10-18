@@ -31,7 +31,7 @@ export const teamData = [{
     dark: true,
     primary: true,
     darkText: false,
-    buttonAction: `window.open('mailto:priyam@Nirman Easy.in','blank')`,
+    buttonAction: `window.open('mailto:priyam@NirmanEasy.in','blank')`,
 },
 {
     id: 'Team',
@@ -49,7 +49,7 @@ export const teamData = [{
     dark: true,
     primary: true,
     darkText: false,
-    buttonAction: ()=>window.open('mailto:amit@Nirman Easy.in','blank'),
+    buttonAction: ()=>window.open('mailto:amit@NirmanEasy.in','blank'),
 },
 {
     id: 'Team',
@@ -57,9 +57,9 @@ export const teamData = [{
     lightText: true,
     lightDescription: true,
     topLine: 'Our Team',
-    headline: 'Ms. Shruti Verma',
-    designation: 'Co-Founder and CTO',
-    description: ' Has extensive experience in the software industry. He graduated from IIT-Madras with a  master’s degree in computer science engineering.',
+    headline: 'Mr. Mohammad Ali',
+    designation: 'Co-Founder and CPO',
+    description: 'Has more than a decade of experience in client communication, requirement and leading product development.',
     buttonLabel: 'Connect',
     imgStart: false,
     img: require('../../images/2.svg'),
@@ -67,7 +67,7 @@ export const teamData = [{
     dark: true,
     primary: true,
     darkText: false,
-    buttonAction: ()=>window.open('mailto:shruti@Nirman Easy.in','blank'),
+    buttonAction: ()=>window.open('mailto:amit@NirmanEasy.in','blank'),
 },
 {
     id: 'Team',
@@ -75,9 +75,9 @@ export const teamData = [{
     lightText: true,
     lightDescription: true,
     topLine: 'Our Team',
-    headline: 'Mrs. Priya',
-    designation: 'Co-Founder and CTO',
-    description: ' Has extensive experience in the software industry. He graduated from IIT-Madras with a  master’s degree in computer science engineering.',
+    headline: 'Mr. Udit Mishra',
+    designation: 'Co-Founder and COO',
+    description: 'Has more than a decade of experience in client communication, requirement and leading product development.',
     buttonLabel: 'Connect',
     imgStart: false,
     img: require('../../images/2.svg'),
@@ -85,7 +85,7 @@ export const teamData = [{
     dark: true,
     primary: true,
     darkText: false,
-    buttonAction: ()=>window.open('mailto:priya@Nirman Easy.in','blank'),
+    buttonAction: ()=>window.open('mailto:amit@NirmanEasy.in','blank'),
 }
 ]
 

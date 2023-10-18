@@ -24,7 +24,6 @@ justify-content: center;
 export const TitleWrapper= styled.div`
 display: grid;
 z-index: 1;
-height: 800px;
 width: 100%;
 max-width: 1100px;
 margin-right: auto;
@@ -53,16 +52,6 @@ grid-area: col1;
 `;
 
 export const Column2 = styled.div`
-margin-bottom: 15px;
-padding: 0 15px;
-grid-area: col2;
-`;
-export const Column3 = styled.div`
-margin-bottom: 15px;
-padding: 0 15px;
-grid-area: col1;
-`;
-export const Column4 = styled.div`
 margin-bottom: 15px;
 padding: 0 15px;
 grid-area: col2;
