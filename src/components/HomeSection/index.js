@@ -28,7 +28,7 @@ with innovative products and cutting edge
 technology.
              </HomeBody>
             <HomeButtonWrapper>
-                <img onClick={()=> window.open('https://play.google.com/store/apps/details?id=in.nirmaneasy.www.twa')} width={'400px'} src={playStore}></img>
+                <img onClick={()=> window.open('https://play.google.com/store/apps/details?id=in.nirmaneasy.ecom.twa')} width={'400px'} alt='play-store' src={playStore}></img>
                 {/* <Button  primary={true} dark={true} to="signUp" onMouseEnter={onHover} onMouseLeave={onHover}>Get Started{hover?<ArrowForward/>:<ArrowRight/>}</Button> */}
             </HomeButtonWrapper>
         </HomeContent>
