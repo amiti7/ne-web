@@ -1,8 +1,7 @@
 import React, {useState} from 'react'
-import {HomeContainer, HomeBg, VideoBg, HomeContent, HomeHeading, HomeBody, HomeButtonWrapper,ArrowForward, ArrowRight } from './HomeElement';
+import {HomeContainer, HomeBg, HomeContent, HomeHeading, HomeBody, HomeButtonWrapper } from './HomeElement';
 import titleImage from '../../images/titleImage.png'
 import playStore from '../../images/playStore.png'
-import { Button } from '../ButtonElement.js';
 
 function HomeSection() {
     const [hover, setHover] = useState(false);
@@ -28,7 +27,7 @@ with innovative products and cutting edge
 technology.
              </HomeBody>
             <HomeButtonWrapper>
-                <img onClick={()=> window.open('https://play.google.com/store/apps/details?id=in.nirmaneasy.ecom.twa')} width={'400px'} alt='play-store' src={playStore}></img>
+                <img onMouseEnter={onHover} onMouseLeave={onHover} onClick={()=> window.open('https://play.google.com/store/apps/details?id=in.nirmaneasy.ecom.twa')} width={'400px'} alt='play-store' src={playStore}></img>
                 {/* <Button  primary={true} dark={true} to="signUp" onMouseEnter={onHover} onMouseLeave={onHover}>Get Started{hover?<ArrowForward/>:<ArrowRight/>}</Button> */}
             </HomeButtonWrapper>
         </HomeContent>
