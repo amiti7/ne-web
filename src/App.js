@@ -4,7 +4,9 @@ import Home from './pages/Home';
 // import Career from './pages/Career';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Terms from './pages/Terms';
+import ReactGA4 from "react-ga4";
 
+ReactGA4.initialize('G-9T21YZCGK0');
 
 function App() {
   return (
