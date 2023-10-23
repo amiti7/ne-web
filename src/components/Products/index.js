@@ -1,5 +1,5 @@
 import React from 'react'
-import {ProductContainer, ProductsH1, ProductsWrapper, ProductCard, ProductIcon} from './ProductElements'
+import {ProductContainer, ProductsH1, ProductsWrapper, ProductCard, ProductIcon, ProductsH2} from './ProductElements'
 import item1 from '../../images/pk_p.png';
 import item2 from '../../images/pk_wp.png';
 
@@ -8,7 +8,9 @@ const Products = () => {
     <ProductContainer id='product'>
         <ProductsH1>Products For You</ProductsH1>
         <ProductsWrapper>
+          
             <ProductCard>
+            <ProductsH2>Plaster King Premium</ProductsH2>
                 <div style={{display:'flex', width: '36em'}}>
                 <div style={{margin:'auto'}}>
                   <ul style={{listStyleType:'disclosure-closed'}}>
@@ -29,6 +31,7 @@ const Products = () => {
                
             </ProductCard>
             <ProductCard>
+            <ProductsH2>Plaster King Weather Proof</ProductsH2>
             <div style={{display:'flex', width: '36em'}}>
             <div style={{margin:'auto'}}>
             <ul style={{listStyleType:'disclosure-closed'}}>

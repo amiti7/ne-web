@@ -69,6 +69,15 @@ margin-bottom: 64px;
 }
 `;
 
+export const ProductsH2= styled.h1`
+font-size: 2rem;
+color: black;
+margin-bottom: 32px;
+@media screen and (max-width: 480px) {
+    font-size: 1.5rem;
+}
+`;
+
 
 
 
