@@ -40,7 +40,12 @@ const Navbar = ({toggle}) => {
     <Nav scrollNav={scrollNav}>
         <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
+              <div style={{marginTop:'0.5 em'}}>
                 Nirman Easy
+                </div>
+                <div style={{fontSize:'14px', fontWeight:'100'}}>
+                Legal Name: VINIRMANTECH PRIVATE LIMITED
+                </div>
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars></FaBars>
