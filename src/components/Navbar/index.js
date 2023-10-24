@@ -8,13 +8,13 @@ import {
   NavItem,
   NavLinks,
   NavBtn,
-  NavBtnLink
 } from './NavbarElements';
 import {
   FaBars
 } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
+import playStoreIcon from '../../images/playStoreIcon.png'
 
 const Navbar = ({toggle}) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -102,7 +102,7 @@ const Navbar = ({toggle}) => {
               </NavItem>
             </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/signin'>Sign in</NavBtnLink>
+          <img onClick={()=> window.open('https://play.google.com/store/apps/details?id=in.nirmaneasy.ecom.twa')} width={'150px'} alt='plaster king' src={playStoreIcon}></img>
           </NavBtn>
         </NavbarContainer>
     </Nav>
