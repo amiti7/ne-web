@@ -1,10 +1,8 @@
 import React from 'react';
 import {InfoContainer, InforWrapper, InfoRow, Column1, TextWrapper, TopLine,
     Heading,Subtitle, Column2, ImgWrap, Img } from './InfoElements';
-import Connect from '../Connect/Connect';
 
 const InfoSection = ({id, lightBg, imgStart,description,  topLine, lightText, headline, darkText, buttonLabel, img, alt, primary, dark, dark2, buttonAction, Child}) => {
-   console.log(Child) 
   return (
     <InfoContainer lightBg={lightBg} id={id}>
         <InforWrapper>
@@ -13,7 +11,7 @@ const InfoSection = ({id, lightBg, imgStart,description,  topLine, lightText, he
                 <TextWrapper>
                     <TopLine>{topLine}</TopLine>
                     <Heading lightText={lightText}>{headline}</Heading>
-                    <Subtitle darkText={darkText}>{description}</Subtitle>
+                    {description?<Subtitle darkText={darkText}>{description}</Subtitle>:null}
                     {Child?Child:null}
                 </TextWrapper>
                 </Column1>

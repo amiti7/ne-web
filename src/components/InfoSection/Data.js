@@ -96,7 +96,6 @@ export const homeObjFour = {
     lightDescription: false,
     topLine: 'Connect with Us',
     // headline: 'Hiring coming soon...',
-    description: 'Job opening coming soon for techincal and non-technical positions. Keep visiting this section.',
     buttonLabel: 'or direct apply',
     imgStart: false,
     img: require('../../images/3.svg'),
