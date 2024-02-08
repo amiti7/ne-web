@@ -35,7 +35,6 @@ const Navbar = ({toggle}) => {
     scroll.scrollToTop()
   }
   return (
-    <>
     <IconContext.Provider value={{color:'#fff'}}>
     <Nav scrollNav={scrollNav}>
         <NavbarContainer>
@@ -76,21 +75,13 @@ const Navbar = ({toggle}) => {
                 exact='true'
                 offset={-80}>Vision</NavLinks>
               </NavItem>
-              {/* <NavItem>
-                <NavLinks to="Team"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact='true'
-                offset={-80}>Team</NavLinks>
-              </NavItem> */}
               <NavItem>
                 <NavLinks to="Career"
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact='true'
-                offset={-80}>Career</NavLinks>
+                offset={-80}>Connect</NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to="Contact"
@@ -107,7 +98,6 @@ const Navbar = ({toggle}) => {
         </NavbarContainer>
     </Nav>
     </IconContext.Provider>
-    </>
   )
 }
 

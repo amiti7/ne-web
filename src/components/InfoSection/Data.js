@@ -91,11 +91,11 @@ export const teamData = [{
 
 export const homeObjFour = {
     id: 'Career',
-    lightBg: true,
+    lightBg: false,
     lightText: false,
     lightDescription: false,
-    topLine: 'Career',
-    headline: 'Hiring coming soon...',
+    topLine: 'Connect with Us',
+    // headline: 'Hiring coming soon...',
     description: 'Job opening coming soon for techincal and non-technical positions. Keep visiting this section.',
     buttonLabel: 'or direct apply',
     imgStart: false,
@@ -108,9 +108,9 @@ export const homeObjFour = {
 
 export const homeObjFive = {
     id: 'Contact',
-    lightBg: false,
-    lightText: true,
-    lightDescription: true,
+    lightBg: true,
+    lightText: false,
+    lightDescription: false,
     topLine: 'Contact Us',
     headline: 'Have any query?',
     description: 'Write mail to us at enquire@nirmaneasy.in',

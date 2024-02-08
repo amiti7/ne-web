@@ -1,8 +1,10 @@
 import React from 'react';
 import {InfoContainer, InforWrapper, InfoRow, Column1, TextWrapper, TopLine,
     Heading,Subtitle, Column2, ImgWrap, Img } from './InfoElements';
+import Connect from '../Connect/Connect';
 
-const InfoSection = ({id, lightBg, imgStart,description,  topLine, lightText, headline, darkText, buttonLabel, img, alt, primary, dark, dark2, buttonAction}) => {
+const InfoSection = ({id, lightBg, imgStart,description,  topLine, lightText, headline, darkText, buttonLabel, img, alt, primary, dark, dark2, buttonAction, Child}) => {
+   console.log(Child) 
   return (
     <InfoContainer lightBg={lightBg} id={id}>
         <InforWrapper>
@@ -12,17 +14,7 @@ const InfoSection = ({id, lightBg, imgStart,description,  topLine, lightText, he
                     <TopLine>{topLine}</TopLine>
                     <Heading lightText={lightText}>{headline}</Heading>
                     <Subtitle darkText={darkText}>{description}</Subtitle>
-                    {/* <BtnWrap >
-                        <Button
-                        smooth={true}
-                        duration={500}
-                        spy={true}
-                        offset={-80}
-                        primary={primary?1:0}
-                        dark={dark?1:0}
-                        dark2={dark2?1:0}
-                        >{buttonLabel}</Button>
-                    </BtnWrap> */}
+                    {Child?Child:null}
                 </TextWrapper>
                 </Column1>
                 <Column2>

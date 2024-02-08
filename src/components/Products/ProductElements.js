@@ -15,7 +15,7 @@ background: orange;
 }
 
 @media screen and (max-width: 480px) {
-    height: 2400px;
+    height: 1400px;
     
 }
 `;
