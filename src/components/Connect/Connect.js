@@ -85,20 +85,20 @@ const Connect = () => {
         >
           <option aria-label="None" value="" />
           <optgroup label="Professional">
-            <option value={1}>Engineer</option>
-            <option value={2}>Contractor</option>
-            <option value={3}>Architect</option>
-            <option value={4}>Mistri</option>
+            <option value={'Engineer'}>Engineer</option>
+            <option value={'Contractor'}>Contractor</option>
+            <option value={'Architect'}>Architect</option>
+            <option value={'Mistri'}>Mistri</option>
           </optgroup>
           <optgroup label="Business">
-            <option value={5}>Individual Shop</option>
-            <option value={6}>Builder</option>
+            <option value={'Individual Shop'}>Individual Shop</option>
+            <option value={'Builder'}>Builder</option>
           </optgroup>
           <optgroup label="Home owner">
-            <option value={7}>Home owner</option>
+            <option value={'Home owner'}>Home owner</option>
           </optgroup>
           <optgroup label="Other">
-            <option value={7}>Other</option>
+            <option value={'Other'}>Other</option>
           </optgroup>
         </Select>
       </FormControl>
