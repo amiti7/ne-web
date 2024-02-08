@@ -4,7 +4,6 @@ import {InfoContainer, InforWrapper, InfoRow, Column1, TextWrapper, TopLine,
 
 const InfoSection = ({id, lightBg, imgStart,description,  topLine, lightText, headline, darkText, buttonLabel, img, alt, primary, dark, dark2, buttonAction}) => {
   return (
-    <>
     <InfoContainer lightBg={lightBg} id={id}>
         <InforWrapper>
             <InfoRow imgStart={imgStart}>
@@ -34,7 +33,6 @@ const InfoSection = ({id, lightBg, imgStart,description,  topLine, lightText, he
             </InfoRow>
         </InforWrapper>
     </InfoContainer>
-    </>
   )
 }
 

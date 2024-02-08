@@ -21,7 +21,7 @@ const Home = () => {
         <HomeSection></HomeSection>
         <Products></Products>
         <InfoSection {...homeObjOne}></InfoSection>
-        <BothSide data={teamData}></BothSide>
+        {/* <BothSide data={teamData}></BothSide> */}
         <InfoSection {...homeObjFour}></InfoSection>
         <InfoSection {...homeObjFive}></InfoSection>
         <Footer></Footer>

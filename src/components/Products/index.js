@@ -11,7 +11,7 @@ const Products = () => {
           
             <ProductCard>
             <ProductsH2>Plaster King Premium</ProductsH2>
-                <div style={{display:'flex', width: '36em'}}>
+                <div style={{display:'flex', width: '100%'}}>
                 <div style={{margin:'auto'}}>
                   <ul style={{listStyleType:'disclosure-closed'}}>
                     <li>सिल्ट फ्री मौरंग दे दरार मुक्त प्लास्टर</li>
@@ -32,7 +32,7 @@ const Products = () => {
             </ProductCard>
             <ProductCard>
             <ProductsH2>Plaster King Weather Proof</ProductsH2>
-            <div style={{display:'flex', width: '36em'}}>
+            <div style={{display:'flex', width: '100%'}}>
             <div style={{margin:'auto'}}>
             <ul style={{listStyleType:'disclosure-closed'}}>
                     <li>जलरिसाव एवम पृथक्करण से बचाव</li>

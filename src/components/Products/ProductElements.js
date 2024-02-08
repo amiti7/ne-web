@@ -58,6 +58,11 @@ export const ProductIcon= styled.img`
 height: 500px;
 width: 400px;
 margin-bottom: 10px;
+@media screen and (max-width: 770px) {
+    height: 25%;
+    width: 25%;
+    margin:auto
+}
 `;
 
 export const ProductsH1= styled.h1`

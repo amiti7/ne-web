@@ -54,7 +54,9 @@ padding: 8px 24px;
 display: flex;
 flex-direction: column;
 align-items: center;
-
+@media screen and (max-width:770px) {
+    padding: 8px 0px;
+}
 `;
 
 export const HomeHeading = styled.h1`
