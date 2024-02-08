@@ -43,7 +43,7 @@ const Navbar = ({toggle}) => {
                 Nirman Easy
                 </div>
                 <div style={{fontSize:'14px', fontWeight:'100'}}>
-                Legal Name: VINIRMANTECH PRIVATE LIMITED
+                ViNirmanTech Pvt. Ltd.
                 </div>
             </NavLogo>
             <MobileIcon onClick={toggle}>
